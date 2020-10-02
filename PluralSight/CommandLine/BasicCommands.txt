@@ -1,0 +1,14 @@
+dotnet --info
+dotnet -h
+dotnew new
+mkdir
+cd
+dotnet new console
+dotnet run
+cd ..
+dotnet run --project src\GradeBook
+dotnet build
+dir
+dotnet bin\Debug\netcoreapp3.1\GradeBook.dll
+dotnet run -- Sue
+
