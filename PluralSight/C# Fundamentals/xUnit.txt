@@ -1,0 +1,2 @@
+To add xUnit test create a sub directory under the solution and then use the command line to create the xUnit project.  I can't find the right one in the market place.  
+Then just add the new created project to the solution.
