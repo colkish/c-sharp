@@ -24,3 +24,16 @@ C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\src\GradeBook\bin\Debug
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache

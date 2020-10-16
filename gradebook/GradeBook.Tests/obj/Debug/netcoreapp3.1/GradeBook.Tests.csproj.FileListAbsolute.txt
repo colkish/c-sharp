@@ -94,3 +94,6 @@ C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook.Tests\obj\Deb
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.dll
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.pdb
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\gradebook\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.pdb
