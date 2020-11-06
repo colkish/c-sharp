@@ -1,0 +1,26 @@
+Written Explanation:
+https://www.tutorialsteacher.com/csharp
+
+Visualisation:
+https://swharden.com/CsharpDataVis/
+
+Exercises:
+https://csharpexercises.com/basics/exercise/add-two-numbers
+
+DataGrids might work fo Sudoku:
+https://www.wiseowl.co.uk/c-sharp/exercises/standard/datagridview-events/
+
+Sudoku grid:
+https://sudoku.com/
+
+The classic Sudoku game involves a grid of 81 squares. The grid is divided into nine blocks, each containing nine squares. 
+The rules of the game are simple: each of the nine blocks has to contain all the numbers 1-9 within its squares. 
+Each number can only appear once in a row, column or box.
+
+Here is some basic stuff on dataviews:
+https://www.c-sharpcorner.com/UploadFile/deveshomar/ways-to-bind-datagridview-in-window-forms-C-Sharp/
+
+Wonder if I can fill in some fixed numbers
+Allow entry of 1 to 9 on the blank cells
+Turn green if valid or red if not valid based on the based on the existing number in each row, column or square
+
