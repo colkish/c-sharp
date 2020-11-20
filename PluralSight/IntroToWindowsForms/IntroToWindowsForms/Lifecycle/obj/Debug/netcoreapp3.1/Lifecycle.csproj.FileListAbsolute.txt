@@ -1,0 +1,16 @@
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\bin\Debug\netcoreapp3.1\Lifecycle.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\bin\Debug\netcoreapp3.1\Lifecycle.deps.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\bin\Debug\netcoreapp3.1\Lifecycle.runtimeconfig.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\bin\Debug\netcoreapp3.1\Lifecycle.runtimeconfig.dev.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\bin\Debug\netcoreapp3.1\Lifecycle.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\bin\Debug\netcoreapp3.1\Lifecycle.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.csprojAssemblyReference.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.Lifecycle.resources
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.csproj.GenerateResource.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.AssemblyInfoInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.AssemblyInfo.cs
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\Lifecycle.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Lifecycle\obj\Debug\netcoreapp3.1\CustomDialogs.ConfirmDialogs.resources

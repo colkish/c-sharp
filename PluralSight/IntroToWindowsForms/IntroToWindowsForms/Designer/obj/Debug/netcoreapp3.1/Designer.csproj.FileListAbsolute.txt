@@ -1,0 +1,15 @@
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\bin\Debug\netcoreapp3.1\Designer.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\bin\Debug\netcoreapp3.1\Designer.deps.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\bin\Debug\netcoreapp3.1\Designer.runtimeconfig.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\bin\Debug\netcoreapp3.1\Designer.runtimeconfig.dev.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\bin\Debug\netcoreapp3.1\Designer.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\bin\Debug\netcoreapp3.1\Designer.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.csprojAssemblyReference.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.MyForm.resources
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.csproj.GenerateResource.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.AssemblyInfoInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.AssemblyInfo.cs
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Designer\obj\Debug\netcoreapp3.1\Designer.genruntimeconfig.cache
