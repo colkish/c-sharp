@@ -1,0 +1,16 @@
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\bin\Debug\netcoreapp3.1\MenusAndToolbars.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\bin\Debug\netcoreapp3.1\MenusAndToolbars.deps.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\bin\Debug\netcoreapp3.1\MenusAndToolbars.runtimeconfig.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\bin\Debug\netcoreapp3.1\MenusAndToolbars.runtimeconfig.dev.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\bin\Debug\netcoreapp3.1\MenusAndToolbars.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\bin\Debug\netcoreapp3.1\MenusAndToolbars.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.csprojAssemblyReference.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.Form1.resources
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.csproj.GenerateResource.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.AssemblyInfoInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.AssemblyInfo.cs
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\MenusAndToolbars\obj\Debug\netcoreapp3.1\MenusAndToolbars.Properties.Resources.resources

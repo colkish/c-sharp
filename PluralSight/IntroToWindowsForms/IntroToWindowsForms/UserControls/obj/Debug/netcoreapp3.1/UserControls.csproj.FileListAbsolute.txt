@@ -1,0 +1,16 @@
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\bin\Debug\netcoreapp3.1\UserControls.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\bin\Debug\netcoreapp3.1\UserControls.deps.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\bin\Debug\netcoreapp3.1\UserControls.runtimeconfig.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\bin\Debug\netcoreapp3.1\UserControls.runtimeconfig.dev.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\bin\Debug\netcoreapp3.1\UserControls.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\bin\Debug\netcoreapp3.1\UserControls.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.Form1.resources
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.csproj.GenerateResource.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.AssemblyInfoInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.AssemblyInfo.cs
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.csprojAssemblyReference.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\UserControls\obj\Debug\netcoreapp3.1\UserControls.PersonControl.resources
