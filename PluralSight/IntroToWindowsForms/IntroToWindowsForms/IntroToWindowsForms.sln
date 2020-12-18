@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Designer", "Designer\Design
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lifecycle", "Lifecycle\Lifecycle.csproj", "{12D5139B-18B4-4E0A-8024-328CFFF658FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenusAndToolbars", "MenusAndToolbars\MenusAndToolbars.csproj", "{C528C763-3B6F-4900-98D3-1D114BF9B9C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenusAndToolbars", "MenusAndToolbars\MenusAndToolbars.csproj", "{C528C763-3B6F-4900-98D3-1D114BF9B9C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControls", "UserControls\UserControls.csproj", "{65F9CEDD-6EB0-414A-A90C-B0F893237D64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserControls", "UserControls\UserControls.csproj", "{65F9CEDD-6EB0-414A-A90C-B0F893237D64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDI", "MDI\MDI.csproj", "{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDI", "SDI\SDI.csproj", "{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{65F9CEDD-6EB0-414A-A90C-B0F893237D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F9CEDD-6EB0-414A-A90C-B0F893237D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F9CEDD-6EB0-414A-A90C-B0F893237D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
