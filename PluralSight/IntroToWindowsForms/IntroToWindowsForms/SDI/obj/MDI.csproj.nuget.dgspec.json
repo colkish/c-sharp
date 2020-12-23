@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\SDI\\SDI.csproj": {}
+    "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\MDI\\MDI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\SDI\\SDI.csproj": {
+    "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\MDI\\MDI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\SDI\\SDI.csproj",
-        "projectName": "SDI",
-        "projectPath": "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\SDI\\SDI.csproj",
+        "projectUniqueName": "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\MDI\\MDI.csproj",
+        "projectName": "MDI",
+        "projectPath": "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\MDI\\MDI.csproj",
         "packagesPath": "C:\\Users\\ckish.HS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\SDI\\obj\\",
+        "outputPath": "C:\\Users\\ckish.HS\\Source\\Repos\\colkish\\c-sharp\\PluralSight\\IntroToWindowsForms\\IntroToWindowsForms\\MDI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ckish.HS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0-windows7.0": {
-            "targetAlias": "net5.0-windows",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",

@@ -7,123 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SDI;
 
-namespace SDI
+namespace MDI
 {
-    public partial class DocForm : Form
+    public partial class docForm : Form
     {
 
-        private int _counter = 0;
-
-        public DocForm()
+        public docForm()
         {
             InitializeComponent();
         }
+
+        private static int _counter = 0;
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
-              CreateForm();
-        }
-
-        private void cascadeStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.LayoutMdi(MdiLayout.Cascade);
-        }
-
-        private void tileHorizontallyStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.LayoutMdi(MdiLayout.TileHorizontal);
-
-        }
-
-        private void tileVerticallyStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.LayoutMdi(MdiLayout.TileVertical);
-
-        }
-
-        private void undoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                var childform = (ChildForm)this.ActiveMdiChild;
-                childform.documentTextBox.Undo();
-            }
-        }
-
-        private void redoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                var childform = (ChildForm)this.ActiveMdiChild;
-                childform.documentTextBox.Redo();
-            }
-        }
-
-        private void cutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                var childform = (ChildForm)this.ActiveMdiChild;
-                childform.documentTextBox.Cut();
-            }
-        }
-
-        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                var childform = (ChildForm)this.ActiveMdiChild;
-                childform.documentTextBox.Copy();
-            }
-        }
-
-        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                var childform = (ChildForm)this.ActiveMdiChild;
-                childform.documentTextBox.Paste();
-            }
-        }
-
-        private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                var childform = (ChildForm)this.ActiveMdiChild;
-                childform.documentTextBox.SelectAll();
-            }
-        }
-
-        private void closeStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                this.ActiveMdiChild.Close();
-            }
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-            {
-                var childForm = (ChildForm)this.ActiveMdiChild;
-                var dialogue = new SaveFileDialog();
-                dialogue.Filter = "Rich text files | *.rtf";
-                dialogue.AddExtension = true;
-                var result = dialogue.ShowDialog();
-                if (result == DialogResult.OK)
-                {
-                    childForm.documentTextBox.SaveFile(dialogue.FileName);
-                    childForm.Text = dialogue.FileName;
-                }
-
-            }
+            CreateForm();
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
@@ -133,12 +32,68 @@ namespace SDI
             var result = dialogue.ShowDialog();
             if (result == DialogResult.OK)
             {
-                var childForm = new ChildForm();
-                childForm.documentTextBox.LoadFile(dialogue.FileName);
-                childForm.Text = dialogue.FileName;
-                childForm.MdiParent = this;
-                childForm.Show();
+                this.documentTextBox.LoadFile(dialogue.FileName);
+                this.Text = dialogue.FileName;
             }
+        }
+
+        private void closeStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var dialogue = new SaveFileDialog();
+            dialogue.Filter = "Rich text files | *.rtf";
+            dialogue.AddExtension = true;
+            var result = dialogue.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                this.documentTextBox.SaveFile(dialogue.FileName);
+                this.Text = dialogue.FileName;
+            }
+
+        }
+
+        private void undoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+                this.documentTextBox.Undo();
+        }
+
+        private void redoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.documentTextBox.Redo();
+        }
+
+        private void cutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.documentTextBox.Cut();
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.documentTextBox.Copy();
+        }
+
+        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.documentTextBox.Paste();
+        }
+
+        private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.documentTextBox.SelectAll();
+        }
+
+        public static docForm CreateForm()
+        {
+            var form = new docForm();
+            form.Text = "New Document "+ ++ _counter;
+            SdiApplication.Instance.ApplicationContext.MainForm = form;
+            form.Show();
+
+            return form;
         }
     }
 }

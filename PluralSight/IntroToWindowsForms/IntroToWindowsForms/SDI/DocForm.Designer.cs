@@ -1,7 +1,7 @@
 ﻿
-namespace SDI
+namespace MDI
 {
-    partial class DocForm
+    partial class docForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,15 +29,14 @@ namespace SDI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(docForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.closeStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,7 +50,6 @@ namespace SDI
             this.cascadeStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileHorizontallyStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileVerticallyStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.closeStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -60,6 +58,7 @@ namespace SDI
             this.cutToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.copyToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.pasteToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.documentTextBox = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -84,9 +83,7 @@ namespace SDI
             this.openToolStripMenuItem,
             this.closeStripMenuItem,
             this.toolStripSeparator,
-            this.saveToolStripMenuItem,
-            this.toolStripSeparator2,
-            this.exitToolStripMenuItem});
+            this.saveToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
@@ -111,6 +108,13 @@ namespace SDI
             this.openToolStripMenuItem.Text = "&Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
+            // closeStripMenuItem
+            // 
+            this.closeStripMenuItem.Name = "closeStripMenuItem";
+            this.closeStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.closeStripMenuItem.Text = "&Close";
+            this.closeStripMenuItem.Click += new System.EventHandler(this.closeStripMenuItem_Click);
+            // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
@@ -125,18 +129,6 @@ namespace SDI
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.exitToolStripMenuItem.Text = "E&xit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
@@ -159,7 +151,7 @@ namespace SDI
             this.undoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
             this.undoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.undoToolStripMenuItem.Text = "&Undo";
-            this.undoToolStripMenuItem.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
+            this.undoToolStripMenuItem.DisplayStyleChanged += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
             // redoToolStripMenuItem
             // 
@@ -182,7 +174,7 @@ namespace SDI
             this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.cutToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.cutToolStripMenuItem.Text = "Cu&t";
-            this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutToolStripMenuItem_Click);
+            this.cutToolStripMenuItem.DisplayStyleChanged += new System.EventHandler(this.cutToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem
             // 
@@ -231,28 +223,18 @@ namespace SDI
             this.cascadeStripMenuItem.Name = "cascadeStripMenuItem";
             this.cascadeStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.cascadeStripMenuItem.Text = "&Cascade";
-            this.cascadeStripMenuItem.Click += new System.EventHandler(this.cascadeStripMenuItem_Click);
             // 
             // tileHorizontallyStripMenuItem
             // 
             this.tileHorizontallyStripMenuItem.Name = "tileHorizontallyStripMenuItem";
             this.tileHorizontallyStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.tileHorizontallyStripMenuItem.Text = "Tile &Horizontally";
-            this.tileHorizontallyStripMenuItem.Click += new System.EventHandler(this.tileHorizontallyStripMenuItem_Click);
             // 
             // tileVerticallyStripMenuItem
             // 
             this.tileVerticallyStripMenuItem.Name = "tileVerticallyStripMenuItem";
             this.tileVerticallyStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.tileVerticallyStripMenuItem.Text = "Tile &Vertically";
-            this.tileVerticallyStripMenuItem.Click += new System.EventHandler(this.tileVerticallyStripMenuItem_Click);
-            // 
-            // closeStripMenuItem
-            // 
-            this.closeStripMenuItem.Name = "closeStripMenuItem";
-            this.closeStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.closeStripMenuItem.Text = "&Close";
-            this.closeStripMenuItem.Click += new System.EventHandler(this.closeStripMenuItem_Click);
             // 
             // toolStrip1
             // 
@@ -335,17 +317,27 @@ namespace SDI
             this.pasteToolStripButton.Text = "&Paste";
             this.pasteToolStripButton.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
-            // MainForm
+            // documentTextBox
+            // 
+            this.documentTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.documentTextBox.Location = new System.Drawing.Point(0, 49);
+            this.documentTextBox.Name = "documentTextBox";
+            this.documentTextBox.Size = new System.Drawing.Size(1096, 576);
+            this.documentTextBox.TabIndex = 5;
+            this.documentTextBox.Text = "";
+            // 
+            // docForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1096, 625);
+            this.Controls.Add(this.documentTextBox);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "MainForm";
-            this.Text = "MDI Text Editor";
+            this.Name = "docForm";
+            this.Text = "New document";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
@@ -363,8 +355,6 @@ namespace SDI
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem undoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem redoToolStripMenuItem;
@@ -387,6 +377,7 @@ namespace SDI
         private System.Windows.Forms.ToolStripButton cutToolStripButton;
         private System.Windows.Forms.ToolStripButton copyToolStripButton;
         private System.Windows.Forms.ToolStripButton pasteToolStripButton;
+        private System.Windows.Forms.RichTextBox documentTextBox;
     }
 }
 

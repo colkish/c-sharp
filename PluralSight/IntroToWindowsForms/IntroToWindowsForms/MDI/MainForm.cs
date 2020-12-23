@@ -30,23 +30,6 @@ namespace MDI
             childForm.Show();
         }
 
-        private void cascadeStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.LayoutMdi(MdiLayout.Cascade);
-        }
-
-        private void tileHorizontallyStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.LayoutMdi(MdiLayout.TileHorizontal);
-
-        }
-
-        private void tileVerticallyStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.LayoutMdi(MdiLayout.TileVertical);
-
-        }
-
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (this.ActiveMdiChild != null)
@@ -145,6 +128,23 @@ namespace MDI
                 childForm.MdiParent = this;
                 childForm.Show();
             }
+        }
+
+        private void cascadeStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void tileHorizontallyStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileHorizontal);
+
+        }
+
+        private void tileVerticallyStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileVertical);
+
         }
     }
 }

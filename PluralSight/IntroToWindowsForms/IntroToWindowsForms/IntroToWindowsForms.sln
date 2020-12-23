@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserControls", "UserControl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDI", "MDI\MDI.csproj", "{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDI", "SDI\SDI.csproj", "{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDI", "SDI\SDI.csproj", "{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D86BCD1-9D1E-48AE-9C2E-FE1C9DF3B4B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D3B20F-1E4E-49B1-A07D-4DFE929FF91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

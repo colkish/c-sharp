@@ -4,8 +4,6 @@ C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\I
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\bin\Debug\netcoreapp3.1\SDI.runtimeconfig.dev.json
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\bin\Debug\netcoreapp3.1\SDI.dll
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\bin\Debug\netcoreapp3.1\SDI.pdb
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.csprojAssemblyReference.cache
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.DocForm.resources
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.csproj.GenerateResource.cache
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.AssemblyInfoInputs.cache
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.AssemblyInfo.cs
@@ -13,3 +11,4 @@ C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\I
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.dll
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.pdb
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\SDI.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\SDI\obj\Debug\netcoreapp3.1\MDI.docForm.resources
