@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDI", "MDI\MDI.csproj", "{8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDI", "SDI\SDI.csproj", "{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer", "Explorer\Explorer.csproj", "{036099CA-46B2-4876-AB37-C577C4DEAB84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2AFCC7B-5D7F-47AE-BEF3-DA45571C4E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036099CA-46B2-4876-AB37-C577C4DEAB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036099CA-46B2-4876-AB37-C577C4DEAB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036099CA-46B2-4876-AB37-C577C4DEAB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036099CA-46B2-4876-AB37-C577C4DEAB84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

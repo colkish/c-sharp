@@ -95,5 +95,33 @@ namespace MDI
 
             return form;
         }
+
+        private void WindowMenuItemClick(object sender, EventArgs e)
+        {
+            var menuItem = sender as ToolStripMenuItem;
+            var form = menuItem.Tag as Form;
+            form.Activate();
+        }
+
+        private void windowStripMenuItem_DropDownOpening(object sender, EventArgs e)
+        {
+
+            if (windowStripMenuItem.DropDownItems.Count > 0)
+            {
+                windowStripMenuItem.DropDown.Dispose();
+            }
+
+            windowStripMenuItem.DropDown = new ToolStripDropDown();
+            foreach (Form openForm in SdiApplication.Instance.OpenForms)
+            {
+                var childItem = new ToolStripMenuItem();
+                childItem.Text = openForm.Text;
+                childItem.Tag = openForm;
+                windowStripMenuItem.DropDownItems.Add(childItem);
+                childItem.Click += new EventHandler(WindowMenuItemClick);
+
+            }
+
+        }
     }
 }

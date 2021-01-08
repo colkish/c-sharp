@@ -1,0 +1,14 @@
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\bin\Debug\netcoreapp3.1\Explorer.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\bin\Debug\netcoreapp3.1\Explorer.deps.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\bin\Debug\netcoreapp3.1\Explorer.runtimeconfig.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\bin\Debug\netcoreapp3.1\Explorer.runtimeconfig.dev.json
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\bin\Debug\netcoreapp3.1\Explorer.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\bin\Debug\netcoreapp3.1\Explorer.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.Explorer.resources
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.csproj.GenerateResource.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.AssemblyInfoInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.AssemblyInfo.cs
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.genruntimeconfig.cache

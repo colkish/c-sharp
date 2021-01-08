@@ -217,6 +217,7 @@ namespace MDI
             this.windowStripMenuItem.Name = "windowStripMenuItem";
             this.windowStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.windowStripMenuItem.Text = "&Window";
+            this.windowStripMenuItem.DropDownOpening += new System.EventHandler(this.windowStripMenuItem_DropDownOpening);
             // 
             // cascadeStripMenuItem
             // 
