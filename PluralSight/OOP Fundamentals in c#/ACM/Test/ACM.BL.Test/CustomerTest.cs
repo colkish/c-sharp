@@ -1,4 +1,4 @@
-﻿using ACM_BL;
+﻿using ACM_BL; //must import from this class if I am going to reference it in this class
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
@@ -12,6 +12,7 @@ namespace ACM.BL.Test
         {
             //--Arrange
             //define customer object as a new instance of type customer
+            //Aslo we can set its properties when we defin it, is we want to, so no () use {} and pop properties in there
             //the fact its a customer type is obvious, so as below we can use the var keyword
             Customer customer = new Customer
             {
@@ -107,7 +108,46 @@ namespace ACM.BL.Test
 
             //--Assert
             Assert.AreEqual(3, Customer.InstanceCount);
-        
         }
+
+        [TestMethod]
+       public void ValidateValid()
+        {
+            //--Arrange
+            //if we access c1 we cant see any statis 
+            var customer = new Customer
+            {
+                LastName = "Kish",
+                EmailAddress = "colkish@hotmail.com"
+            };
+
+            var expected = true;
+
+            //--Act
+            var actual = customer.Validate();
+
+            //--Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ValidateMissingLastName()
+        {
+            //--Arrange
+            //if we access c1 we cant see any statis 
+            var customer = new Customer
+            {
+                EmailAddress = "colkish@hotmail.com"
+            };
+
+            var expected = false;
+
+            //--Act
+            var actual = customer.Validate();
+
+            //--Assert
+            Assert.AreEqual(expected, actual);
+        }
+
     }
 }
