@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM_BL
 {
-    class Order
+    public class Order
     {
         public Order()
         {
@@ -17,23 +17,10 @@ namespace ACM_BL
             OrderId = orderId;
         }
 
-        public int OrderId { get; set; }
+        public int OrderId { get; private set; }
 
         //offsset contains timezones
         public DateTimeOffset? OrderDate { get; set; }
-
-        public List<Order> Retreive()
-        {
-
-            return new List<Order>();
-        }
-
-
-        public bool Save()
-        {
-
-            return true;
-        }
 
         public bool Validate()
         {

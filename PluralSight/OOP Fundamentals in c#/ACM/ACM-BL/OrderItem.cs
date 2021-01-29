@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM_BL
 {
-    class OrderItem
+    public class OrderItem
     {
 
         public OrderItem()
@@ -18,9 +18,9 @@ namespace ACM_BL
             OrderItemId = orderItemId;
         }
 
-        public int OrderItemId { get; set; }
+        public int OrderItemId { get; private set; }
         
-        public int ProductId { get; set; }
+        public int ProductId { get; private set; }
 
         public int Quantity { get; set; }
 

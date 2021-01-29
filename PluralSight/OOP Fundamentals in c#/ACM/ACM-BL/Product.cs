@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ACM
+namespace ACM_BL
 {
-    class Product
+    public class Product
     {
         public Product()
         {
@@ -17,7 +17,7 @@ namespace ACM
             ProductId = productId;
         }
 
-        public int ProductId { get; set; }
+        public int ProductId { get; private set; }
 
         public string ProductName { get; set; }
 
@@ -33,23 +33,5 @@ namespace ACM
             if (CurentPrice == null) isValid = false;
             return isValid;
         }
-
-        public Product Retreive(string ProductId)
-        {
-
-            return new Product();
-        }
-
-        public List<Product> Retreive()
-        {
-
-            return new List<Product>();
-        }
-
-        public Boolean Save()
-        {
-            return true ;
-        }
-
     }
 }
