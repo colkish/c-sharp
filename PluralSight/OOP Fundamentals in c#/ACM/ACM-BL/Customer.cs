@@ -14,21 +14,29 @@ namespace ACM_BL
         //has the same name as the class
         //define at the top of the class
         //ctor tab tab is the shortcut
-        public Customer() //default contructor, must define it if we want to overload it, even if it does nothing
+        //default contructor, must define it if we want to overload it, even if it does nothing
+        public Customer(): this(0) //this is called constructor chaining and allows calling both constructors othersiw would need to initiat the list in both constructors
         {
             
         }
         
         //overloaded constructor
         public Customer(int customerId)
-        {   //set property to passed 
+        {   //set property as passed in
             CustomerId = customerId;
+            //initial the list property to avoid a null exception
+            AddressList = new List<Address>(); //compositional relationship between customer and address, i.e. customer is made up of addresses
         }
 
         //PROPERTIES Start with a capital
         //prop tab tab is the shortcut
         //read only, as DB sets this value
+
+        public List<Address> AddressList { get; set; } //creates a empty list of addresses
+
         public int CustomerId { get; private set; }
+
+        public int CustomerType { get; set; }
 
         public string EmailAddress { get; set; }
 
