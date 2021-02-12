@@ -4,3 +4,6 @@ C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\ACM-BL\obj\Debug\ACM-BL.csproj.CoreCompileInputs.cache
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\ACM-BL\obj\Debug\ACM-BL.dll
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\ACM-BL\obj\Debug\ACM-BL.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\ACM-BL\bin\Debug\Acme.Common.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\ACM-BL\bin\Debug\Acme.Common.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\ACM-BL\obj\Debug\ACM-BL.csproj.CopyComplete

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM_BL
 {
-    public class Customer //I want to access this elsewhere so must be public (not the default), this is called the acces modifier
+    public class Customer : EntityBase //I want to access this elsewhere so must be public (not the default), this is called the acces modifier
     { //Anything public is the class interface (or contract) once in poruction we should add and never remove from the interface 
 
 
@@ -81,6 +81,11 @@ namespace ACM_BL
         public static int InstanceCount { get; set; }
 
         //METHODS
+        //$ allows strings to contain place holders
+
+        public string Log() => $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
+
+        public override string ToString() => FullName;
 
         //gets all customers I can give it the same name as above as longs as it has a different signature, in this case paramters are different
         //this is called the method signature, the name and the paramter tpes, NOT the return type
@@ -91,7 +96,7 @@ namespace ACM_BL
             return new List<Customer>();
         }
 
-        public bool Validate() 
+        public override bool Validate() 
         {
             var isValid = true;
             if (string.IsNullOrWhiteSpace(LastName)) isValid = false;

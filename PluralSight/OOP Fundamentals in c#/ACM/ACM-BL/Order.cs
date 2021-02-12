@@ -31,6 +31,8 @@ namespace ACM_BL
 
         public int ShippingAddressId { get; set; }
 
+        public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
+
         public bool Validate()
         {
             var isValid = true;

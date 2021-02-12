@@ -1,0 +1,6 @@
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Acme.Common\bin\Debug\Acme.Common.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Acme.Common\bin\Debug\Acme.Common.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Acme.Common\obj\Debug\Acme.Common.csprojAssemblyReference.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Acme.Common\obj\Debug\Acme.Common.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Acme.Common\obj\Debug\Acme.Common.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Acme.Common\obj\Debug\Acme.Common.pdb

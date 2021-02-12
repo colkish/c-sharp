@@ -29,7 +29,28 @@ namespace ACM_BL
         public bool Save(Product product)
         {
 
-            return true;
+            bool success = true;
+
+            if (product.HasChanges)
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+                        //call an insert proc
+                    }
+                    else
+                    {
+                        //call an update proc
+                    }
+
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
 
     }

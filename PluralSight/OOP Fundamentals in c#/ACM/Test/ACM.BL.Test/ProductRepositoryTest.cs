@@ -29,5 +29,51 @@ namespace ACM.BL.Test
             Assert.AreEqual(expected.CurentPrice, actual.CurentPrice);
 
         }
+
+        [TestMethod]
+        public void SaveTestValid()
+        {
+
+            //--Arrange
+            ProductRepository productRepository = new ProductRepository();
+            Product updatedProduct = new Product(1) //create and set expected prouct instance
+            {
+                ProductName = "Car",
+                ProductDescription = "A Nice Car",
+                CurentPrice = 18M,
+                HasChanges = true
+            };
+
+            //--Act
+            //create and set actual product as whats retrived from the ProductRepository retreival
+            bool actual = productRepository.Save(updatedProduct);
+
+            //--Assert
+            Assert.AreEqual(true, actual);
+
+        }
+
+        [TestMethod]
+        public void SaveTestMissingPrice()
+        {
+
+            //--Arrange
+            ProductRepository productRepository = new ProductRepository();
+            Product updatedProduct = new Product(1) //create and set expected prouct instance
+            {
+                ProductName = "Car",
+                ProductDescription = "A Nice Car",
+                CurentPrice = null,
+                HasChanges = true
+            };
+
+            //--Act
+            //create and set actual product as whats retrived from the ProductRepository retreival
+            bool actual = productRepository.Save(updatedProduct);
+
+            //--Assert
+            Assert.AreEqual(false, actual);    
+            
+        }
     }
 }
