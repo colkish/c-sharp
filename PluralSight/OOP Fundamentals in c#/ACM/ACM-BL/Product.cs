@@ -7,7 +7,7 @@ using Acme.Common;
 
 namespace ACM_BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -44,7 +44,9 @@ namespace ACM_BL
 
         //? means allow nulls
         public decimal? CurentPrice { get; set; }
-
+        
+        public string Log() => $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
+        
         public override string ToString() => ProductName;
 
         public override bool Validate()

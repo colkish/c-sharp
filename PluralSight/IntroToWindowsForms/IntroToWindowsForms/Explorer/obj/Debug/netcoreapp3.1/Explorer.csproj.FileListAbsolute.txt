@@ -12,3 +12,4 @@ C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\I
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.dll
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.pdb
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.genruntimeconfig.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Explorer\obj\Debug\netcoreapp3.1\Explorer.csprojAssemblyReference.cache

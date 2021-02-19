@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Acme.Common;
 
 namespace ACM_BL
 {
-    public class Customer : EntityBase //I want to access this elsewhere so must be public (not the default), this is called the acces modifier
-    { //Anything public is the class interface (or contract) once in poruction we should add and never remove from the interface 
+    public class Customer : EntityBase, ILoggable
+    //I want to access this elsewhere so must be public (not the default), this is called the acces modifier
+    //Anything public is the class interface (or contract) once in production we should add and never remove from the interface 
+    //I have also implmented the Iloggable interface here, so I must define its properties and methods here, it only has one Log which is defined below
+    {
 
 
         //Constructor is a special type of method which is called automatically when an object of this class in instanciated
@@ -15,7 +19,7 @@ namespace ACM_BL
         //define at the top of the class
         //ctor tab tab is the shortcut
         //default contructor, must define it if we want to overload it, even if it does nothing
-        public Customer(): this(0) //this is called constructor chaining and allows calling both constructors othersiw would need to initiat the list in both constructors
+        public Customer(): this(0) //this is called constructor chaining and allows calling both constructors otherwise would need to initiate the list in both constructors
         {
             
         }
@@ -83,6 +87,7 @@ namespace ACM_BL
         //METHODS
         //$ allows strings to contain place holders
 
+        //
         public string Log() => $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
 
         public override string ToString() => FullName;

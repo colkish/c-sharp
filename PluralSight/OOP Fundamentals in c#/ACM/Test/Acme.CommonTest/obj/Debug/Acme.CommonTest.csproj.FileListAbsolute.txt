@@ -14,3 +14,5 @@ C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Test\Acme.CommonTest\obj\Debug\Acme.CommonTest.csproj.CopyComplete
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Test\Acme.CommonTest\obj\Debug\Acme.CommonTest.dll
 C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Test\Acme.CommonTest\obj\Debug\Acme.CommonTest.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Test\Acme.CommonTest\bin\Debug\ACM-BL.dll
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\OOP Fundamentals in c#\ACM\Test\Acme.CommonTest\bin\Debug\ACM-BL.pdb
