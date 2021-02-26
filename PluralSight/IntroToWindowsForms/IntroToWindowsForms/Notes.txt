@@ -1,0 +1,3 @@
+I abondoned module 5 as my project didn't show icones, I sure this is because I was created a .net core project and not a .net framework project.
+I have the the working downloaded project here:
+C:\Users\ckish.HS\OneDrive - hublsoft limited\PDP\C#\IntroductionToForms\5-windows-forms-introduction-with-visual-basic-m5-explorer-exercise-files\CS\Explorer

@@ -1,7 +1,0 @@
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Simple\obj\Debug\Simple.csprojAssemblyReference.cache
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Simple\obj\Debug\Simple.csproj.CoreCompileInputs.cache
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Simple\bin\Debug\Simple.exe.config
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Simple\bin\Debug\Simple.exe
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Simple\bin\Debug\Simple.pdb
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Simple\obj\Debug\Simple.exe
-C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\IntroToWindowsForms\IntroToWindowsForms\Simple\obj\Debug\Simple.pdb
