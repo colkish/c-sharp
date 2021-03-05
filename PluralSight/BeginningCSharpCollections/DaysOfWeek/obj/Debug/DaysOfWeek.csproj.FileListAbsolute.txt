@@ -1,0 +1,6 @@
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\bin\Debug\DaysOfWeek.exe
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\bin\Debug\DaysOfWeek.exe.config
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\obj\Debug\DaysOfWeek.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\obj\Debug\DaysOfWeek.exe
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\obj\Debug\DaysOfWeek.pdb
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\bin\Debug\DaysOfWeek.pdb

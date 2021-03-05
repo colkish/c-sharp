@@ -1,0 +1,7 @@
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\Contries\bin\Debug\Contries.exe.config
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\Contries\bin\Debug\Contries.exe
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\Contries\bin\Debug\Contries.pdb
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\Contries\obj\Debug\Countries.csprojAssemblyReference.cache
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\Contries\obj\Debug\Countries.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\Contries\obj\Debug\Contries.exe
+C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\Contries\obj\Debug\Contries.pdb
