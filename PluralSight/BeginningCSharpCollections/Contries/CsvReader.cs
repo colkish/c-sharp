@@ -19,11 +19,11 @@ namespace Contries
         }
 
         //method to read x countries from a file it refurns an array of countries
-        public Country[] ReadFirstNCountriers (int nCountries)
+        public List<Country> ReadAllCountries ()
         {
             //define countries as an array of nCountries countries and return the array
             //this is a reference array so all it's values will be null, if it was a value type like an int then it would have 0 values if it's values are not set
-            Country[]  countries = new Country[nCountries]; //I define the size here in squares, and it must have a size
+            List <Country>  countries = new List<Country>(); //I define the size here in squares, and it must have a size
 
             //StreamReader is a class in the System.IO so need to add a using for this above
             //StreamReader sr = new StreamReader(_csvFilePath);
@@ -33,12 +33,12 @@ namespace Contries
                 //reader the header doing nothing
                 sr.ReadLine();
 
-                //setup a for loop for 10 countries and populate the 
-                for (int i = 0; i < nCountries; i++)
-                {
-                    string csvLine = sr.ReadLine(); //grab live
+                //setup a for loop for countries and populate
+                string csvLine;
+                while ((csvLine = sr.ReadLine()) != null) //grab line
+                { 
                     //populate array by calling readline from CSV
-                    countries[i] = ReadCountryFromCsvLine(csvLine);
+                    countries.Add(ReadCountryFromCsvLine(csvLine));
                 }
 
 
@@ -51,11 +51,31 @@ namespace Contries
         {
             //parts is an aray which we split form the csv line
             string[] parts = csvLine.Split(new char[] { ',' });
+            string name;
+            string code;
+            string region;
+            string popText;
+            switch (parts.Length)
+            {
+                case 4:
+                    name = parts[0];
+                    code = parts[1];
+                    region = parts[2];
+                    popText = parts[3];
+                    break;
+                case 5:
+                    name = parts[0] + ", " + parts[1];
+                    name = name.Replace("\"", null).Trim();
+                    code = parts[2];
+                    region = parts[3];
+                    popText = parts[4];
+                    break;
+                default:
+                    throw new Exception($"Can't parse country from csvLin: {csvLine}");
 
-            string name = parts[0];
-            string code = parts[1];
-            string region = parts[2];
-            int population = int.Parse(parts[3]); //this will return a string so parse it
+            }
+
+            int.TryParse(popText, out int population);
 
             //returns a new instance of an array
             return new Country(name, code, region, population);

@@ -10,6 +10,7 @@ namespace DaysOfWeek
     {
         static void Main(string[] args)
         {
+            //as an array
             string[] daysOfTheWeek =
             {
                  "Monday"
@@ -20,6 +21,18 @@ namespace DaysOfWeek
                 ,"Saturday"
                 ,"Sunday"
             };
+
+            //as a list, instance the list of the type and make the constructor call
+            List<string> daysOfWeek = new List<string> //this bit to the right of the equals is not optional like it is for an array
+                {
+                     "Monday"
+                    ,"Tuesday"
+                    ,"Wensday"
+                    ,"Thursday"
+                    ,"Friday"
+                    ,"Saturday"
+                    ,"Sunday"
+                 };
 
             Console.WriteLine("\r\nBEfore:");
             foreach (string day in daysOfTheWeek)
