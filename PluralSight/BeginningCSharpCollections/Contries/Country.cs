@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Contries
 {
-    class Country
+    public class Country
     {
         public string Name { get; set; }
         public string Code { get; set; }

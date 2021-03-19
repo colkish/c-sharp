@@ -1,0 +1,11 @@
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\bin\Debug\Dictionary2.exe.config
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\bin\Debug\Dictionary2.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\bin\Debug\Dictionary2.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\bin\Debug\Contries.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\bin\Debug\Contries.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\bin\Debug\Contries.exe.config
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\obj\Debug\Dictionary.csprojAssemblyReference.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\obj\Debug\Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\obj\Debug\Dictionary.csproj.CopyComplete
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\obj\Debug\Dictionary2.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\Dictionary2\obj\Debug\Dictionary2.pdb

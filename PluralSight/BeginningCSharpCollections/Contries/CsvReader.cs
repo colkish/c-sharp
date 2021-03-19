@@ -19,11 +19,13 @@ namespace Contries
         }
 
         //method to read x countries from a file it refurns an array of countries
-        public List<Country> ReadAllCountries ()
+//        public Dictionary<string, Country> ReadAllCountries ()
+        public List<Country> ReadAllCountries()
         {
             //define countries as an array of nCountries countries and return the array
             //this is a reference array so all it's values will be null, if it was a value type like an int then it would have 0 values if it's values are not set
-            List <Country>  countries = new List<Country>(); //I define the size here in squares, and it must have a size
+            //Dictionary<string, Country> countries = new Dictionary<string, Country>(); //I define the size here in squares, and it must have a size
+            List<Country> countries = new List<Country>();
 
             //StreamReader is a class in the System.IO so need to add a using for this above
             //StreamReader sr = new StreamReader(_csvFilePath);
@@ -36,9 +38,12 @@ namespace Contries
                 //setup a for loop for countries and populate
                 string csvLine;
                 while ((csvLine = sr.ReadLine()) != null) //grab line
-                { 
+                {
+
                     //populate array by calling readline from CSV
-                    countries.Add(ReadCountryFromCsvLine(csvLine));
+                    //countries.Add(country.Code, country);
+                    Country country = ReadCountryFromCsvLine(csvLine);
+                    countries.Add(country);
                 }
 
 
