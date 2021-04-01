@@ -4,3 +4,6 @@ C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\obj\Debug\D
 C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\obj\Debug\DaysOfWeek.exe
 C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\obj\Debug\DaysOfWeek.pdb
 C:\Users\ckish.HS\Source\Repos\BeginningCSharpCollections\DaysOfWeek\bin\Debug\DaysOfWeek.pdb
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\DaysOfWeek\bin\Debug\DaysOfWeek.exe.config
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\DaysOfWeek\obj\Debug\DaysOfWeek.exe
+C:\Users\ckish.HS\Source\Repos\colkish\c-sharp\PluralSight\BeginningCSharpCollections\DaysOfWeek\obj\Debug\DaysOfWeek.pdb

@@ -20,12 +20,16 @@ namespace Contries
 
         //method to read x countries from a file it refurns an array of countries
 //        public Dictionary<string, Country> ReadAllCountries ()
-        public List<Country> ReadAllCountries()
+        //public List<Country> ReadAllCountries() //countries
+        public Dictionary<string, List<Country>> ReadAllCountries() //countries and regions
         {
             //define countries as an array of nCountries countries and return the array
             //this is a reference array so all it's values will be null, if it was a value type like an int then it would have 0 values if it's values are not set
             //Dictionary<string, Country> countries = new Dictionary<string, Country>(); //I define the size here in squares, and it must have a size
-            List<Country> countries = new List<Country>();
+            //List<Country> countries = new List<Country>();
+
+            //dict dec, use var for shorthand
+            var countries = new Dictionary<string, List<Country>>();
 
             //StreamReader is a class in the System.IO so need to add a using for this above
             //StreamReader sr = new StreamReader(_csvFilePath);
@@ -43,13 +47,36 @@ namespace Contries
                     //populate array by calling readline from CSV
                     //countries.Add(country.Code, country);
                     Country country = ReadCountryFromCsvLine(csvLine);
-                    countries.Add(country);
+                    //countries.Add(country); //adding to a basic collection only
+                    if (countries.ContainsKey(country.Region))
+                    {
+                        countries[country.Region].Add(country);
+                    }
+                    else
+                    {
+                        List<Country> countriesInRegion = new List<Country> { country };
+                        countries.Add(country.Region, countriesInRegion);
+                    }
                 }
 
 
             }
             
             return countries;
+        }
+
+        public void RemoveCommaCountries(List<Country> countries)
+        {
+            //using a loop
+            /* for (int i= 0; i < countries.Count; i++)
+             {
+                 if (countries[i].Name.Contains(','))
+                     countries.RemoveAt(i);
+             }
+             */
+            //easier why
+            countries.RemoveAll(x => x.Name.Contains(','));
+
         }
 
         public Country ReadCountryFromCsvLine(string csvLine)

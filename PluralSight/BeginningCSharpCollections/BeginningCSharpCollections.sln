@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countries", "Contries\Count
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary2\Dictionary.csproj", "{AF70BB02-F36C-45EB-AC9F-FA8E74B215FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoughtsCrosses", "NoughtsCrosses\NoughtsCrosses.csproj", "{ADCE9354-0CAF-430F-9FBC-664B258A2F55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AF70BB02-F36C-45EB-AC9F-FA8E74B215FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF70BB02-F36C-45EB-AC9F-FA8E74B215FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF70BB02-F36C-45EB-AC9F-FA8E74B215FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCE9354-0CAF-430F-9FBC-664B258A2F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCE9354-0CAF-430F-9FBC-664B258A2F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCE9354-0CAF-430F-9FBC-664B258A2F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCE9354-0CAF-430F-9FBC-664B258A2F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
