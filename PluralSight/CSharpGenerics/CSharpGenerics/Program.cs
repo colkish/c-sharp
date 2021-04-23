@@ -131,6 +131,8 @@ namespace CSharpGenerics
             //var employeesByName2 = new Dictionary<string, List<Employee>>();
             //so would use sort order      
             var employeesByName2 = new SortedDictionary<string, List<Employee>>(); //sorts by key
+            //We also have a sorted list , betror for looping through
+            //Dictionaries are better for inserting and removing and looking up on key value
 
             employeesByName2.Add("Sales", new List<Employee> { new Employee(), new Employee(), new Employee() });
             employeesByName2.Add("Engineering", new List<Employee> { new Employee(), new Employee() });
