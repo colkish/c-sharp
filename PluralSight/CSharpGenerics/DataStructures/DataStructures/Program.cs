@@ -14,11 +14,17 @@ namespace DataStructures
 
             //generics allow us to reuse code whilst still being type safe.  So we create with a palceholder for a type and the calling client instanciates the type.
             //var buffer = new CircularBuffer(capacity: 3);
-            var buffer = new CircularBuffer<double>(capacity: 3);
+            //var buffer = new CircularBuffer<double>(capacity: 3);
+
+            var buffer = new Buffer<double>();
+
+            //using the convert to ints
+            var asInts = buffer.AsEnumerableOf<int>();
 
             ProcessInput(buffer);
 
-            foreach (var item in buffer) //I need a enumerable inferace to do this
+            //foreach (var item in buffer) //I need a enumerable inferace to do this
+            foreach (var item in asInts) //loop through ints
             {
                 Console.WriteLine(item);
             }

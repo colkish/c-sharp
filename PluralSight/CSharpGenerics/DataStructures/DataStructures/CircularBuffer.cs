@@ -8,54 +8,6 @@ using System.Threading.Tasks;
 namespace DataStructures
 {
 
-    //Now I am going to create interface methods for my buffer of type T
-    public interface IBuffer<T> : IEnumerable<T> //make this interface enumerable, which I need to define 
-    {
-        bool IsEmpty { get; } //is empty that is a get
-        void Write(T value); //write methos tha takes value of type T
-        T Read(); //read methos that returns T
-
-    }
-
-    //now for a different buffer class which uses the same interface
-    public class Buffer<T> : IBuffer<T>
-    {
-
-        //Create a FIFO
-        protected Queue<T> _queue = new Queue<T>(); //proected means can't be changed
-
-        //virtual means can be changed
-        public virtual bool IsEmpty 
-        {
-            get { return _queue.Count == 0;  }
-
-        }
-        public virtual void Write(T value)
-        {
-            _queue.Enqueue(value);
-        }
-
-        public virtual T Read()
-        {
-           return _queue.Dequeue();
-        }
-
-        public IEnumerator<T> GetEnumerator()
-        {
-            foreach (var item in _queue)
-            {
-                ///.. do other stuff
-                yield return item; //yeild is a special type for enumerators
-            }
-        }
-
-        IEnumerator IEnumerable.GetEnumerator() //need using System.Collections; for this to work
-        {
-            return GetEnumerator();
-        }
-
-    }
-
     //public class CircularBuffer
     //public class CircularBuffer<T> //generic type
 //    public class CircularBuffer<T> : IBuffer<T> //generic type which implements an interface

@@ -6,6 +6,45 @@ using System.Threading.Tasks;
 
 namespace CSharpGenerics
 {
+
+    public class EmployeeComparer : IEqualityComparer<Employee> , IComparer<Employee>//I just nee to create the implementation
+    {
+        public int Compare(Employee x, Employee y)
+        {
+            return String.Compare(x.Name, y.Name);
+        }
+
+        public bool Equals(Employee x, Employee y)
+        {
+            return string.Equals(x.Name, y.Name);
+        }
+
+        public int GetHashCode(Employee obj)
+        {
+            return obj.Name.GetHashCode();
+        }
+
+
+    }
+
+    //help to tidy my code
+    public class DepartmentCollection : SortedDictionary<string,SortedSet<Employee>> 
+    {
+
+        public DepartmentCollection Add(string departmentName, Employee employee)
+        {
+            if(!ContainsKey(departmentName))
+            { //add department if not already exists
+                Add(departmentName, new SortedSet<Employee>(new EmployeeComparer())) ;
+            }
+
+            this[departmentName].Add(employee);
+            return this;
+
+        }
+
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -139,10 +178,50 @@ namespace CSharpGenerics
 
             foreach (var item in employeesByName2)
             {
-                Console.WriteLine("The count of employyees for {0} is {1}", item.Key, item.Value.Count);
+                Console.WriteLine("The count of employees for {0} is {1}", item.Key, item.Value.Count);
             }
-        
-            
-       }
+
+            //var deparments = new Dictionary<string, List<Employee>>();
+            //var deparments = new SortedDictionary<string, HashSet<Employee>>(); //to sort be key
+            //var deparments = new SortedDictionary<string, SortedSet<Employee>>(); //to sort be key & by Employee
+            var departments = new DepartmentCollection(); //tidy up with a new class
+
+            //deparments.Add("Sales", new HashSet<Employee>()); //try to make colin unique per department does not work it has an overload method IEqualityCompare which I can use defined above
+            //deparments.Add("Sales", new HashSet<Employee>()); //try to make colin unique per department does not work it has an overload method IEqualityCompare which I can use defined above
+            //deparments.Add("Sales", new HashSet<Employee>(new EmployeeComparer())); //instanciate with my new 
+            /*
+            departments.Add("Sales", new SortedSet<Employee>(new EmployeeComparer()));  //with a sorted list so that employees are sorted, need to implement iCompare 
+            departments["Sales"].Add(new Employee { Name = "Mason" });
+            departments["Sales"].Add(new Employee { Name = "Colin" });
+            departments["Sales"].Add(new Employee { Name = "Colin" });
+            //tidy up above now I have an add method
+            */
+            departments.Add("Sales", new Employee { Name = "Mason" })
+                       .Add("Sales", new Employee { Name = "Colin" })
+                       .Add("Sales", new Employee { Name = "Colin" });
+
+            //deparments.Add("Engineering", new HashSet<Employee>());
+            //deparments.Add("Engineering", new HashSet<Employee>());
+            /*
+            departments.Add("Engineering", new SortedSet<Employee>(new EmployeeComparer()));
+            departments["Engineering"].Add(new Employee { Name = "Colin" });
+            departments["Engineering"].Add(new Employee { Name = "Susan" });
+            departments["Engineering"].Add(new Employee { Name = "Logan" });
+            //tidy up above now I have an add method
+            */
+            departments.Add("Engineering", new Employee { Name = "Colin" })
+                       .Add("Engineering", new Employee { Name = "Susan" })
+                       .Add("Engineering", new Employee { Name = "Logan" });
+
+            foreach (var department in departments)
+            {
+                Console.WriteLine(department.Key);
+                foreach (var employee in department.Value)
+                {
+                    Console.WriteLine("\t"+ employee.Name);
+                }
+            }
+
+        }
     }
 }
