@@ -15,8 +15,8 @@ namespace DataStructures
         //now I want to return a different generic type
         //must impleent in any clasees that use this interafce I.e. the buffer
       
-        //Now I have moved this
-        IEnumerable<TOutput> AsEnumerableOf<TOutput>();
+        //Now I have moved this into extension methods class so don't define in interface
+        //IEnumerable<TOutput> AsEnumerableOf<TOutput>();
 
         T Read(); //read methos that returns T
 

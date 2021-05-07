@@ -31,6 +31,7 @@ namespace DataStructures
             return _queue.Dequeue();
         }
 
+        /* moved to exenstion methods class as only used in certain cirumstances
         public IEnumerable<TOutput> AsEnumerableOf<TOutput>()
         {
             var converter = TypeDescriptor.GetConverter(typeof(T));
@@ -40,6 +41,7 @@ namespace DataStructures
                 yield return (TOutput)result;
             }
         }
+        */
 
         //For enumerator nee to return IEnumerator<T> and IEnumerator
         public IEnumerator<T> GetEnumerator()
