@@ -40,7 +40,7 @@ namespace QueryIt
 
     //this doesn't work for contravarients either as it's inheriting from the read only so create a wrte only IF
     //public interface IRepository<in T> : IReadOnlyRepository<T>,IDisposable
-    public interface IRepository<T> : IReadOnlyRepository<T>, IWriteOnlyRepository<T>, IDisposable
+    public interface IRepository<T> : IReadOnlyRepository<T>, IWriteOnlyRepository<T>
     {
 
 
