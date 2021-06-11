@@ -4,6 +4,11 @@
                                      //put command here (ensure defauilt project is SamuraiApp.Data get-help entityframework
                                      //add-migration init creates me a ..init migration file in the solution...
                                      //use script-migration to create the t-SQL script
+                                     //use update-database to apply the scrip to the DB !
+                                     //add-migration manytomanysimple creates a script after 
+                                     //use update-database to apply manytomanysimple to the DB !
+                                     //use add-migration MtoMpayload to create script after adding joinded date to abttleSamurai and overriding the method OnModelCreating
+                                     //use get-migration to see a list of migrations and their staus
 using SamuraiApp.Domain; //need to use this to access Samurai class
 using System;
 using System.Collections.Generic;
@@ -17,14 +22,26 @@ namespace SamuraiApp.Data
     {
         public DbSet<Samurai> Samurais { get; set; }
         public DbSet<Quote> Quotes { get; set; }
+        public DbSet<Battle> Battles { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-                //Local built in DB
-                //            optionsBuilder.UseSqlServer("Data source=(localdb)\\MSSQLLocalDB; Initial Catalog=SamuraiAppData");
-                optionsBuilder.UseSqlServer("Data source=HSYOLAP02\\SQL2K16; Initial Catalog=SamuraiAppData;trusted_connection=true");
+            //Local built in DB
+            //            optionsBuilder.UseSqlServer("Data source=(localdb)\\MSSQLLocalDB; Initial Catalog=SamuraiAppData");
+            optionsBuilder.UseSqlServer("Data source=HSYOLAP02\\SQL2K16; Initial Catalog=SamuraiAppData;trusted_connection=true");
 
         }
-
+        //lets override the migrtion and provide details of the new DateJoined property we have added to the class
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Samurai>()
+                .HasMany(s => s.Battles)
+                .WithMany(b => b.Samurais)
+                .UsingEntity<BattleSamurai>
+                    (bs => bs.HasOne<Battle>().WithMany(),
+                        bs => bs.HasOne<Samurai>().WithMany())
+                .Property(bs => bs.DateJoined) //I only add this and the next line cos I want to add a default
+                .HasDefaultValueSql("getdate()");
+        }
     }
 }

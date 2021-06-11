@@ -7,6 +7,8 @@ namespace SamuraiApp.Domain
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Quote> Quotes { get; set; } = new List<Quote>();
+        public List<Quote> Quotes { get; set; } = new List<Quote>(); //fk referenc to quotes
+        public List<Battle> Battles { get; set; } = new List<Battle>(); //fk many to many reference to battle
+
     }
 }
