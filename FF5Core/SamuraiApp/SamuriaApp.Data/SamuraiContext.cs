@@ -32,7 +32,8 @@ namespace SamuraiApp.Data
         {
             //Local built in DB
             //            optionsBuilder.UseSqlServer("Data source=(localdb)\\MSSQLLocalDB; Initial Catalog=SamuraiAppData");
-            optionsBuilder.UseSqlServer("Data source=HSYOLAP02\\SQL2K16; Initial Catalog=SamuraiAppData;trusted_connection=true")
+            optionsBuilder.UseSqlServer("Data source=HSYOLAP02\\SQL2K16; Initial Catalog=SamuraiAppData;trusted_connection=true"
+            ,options=>options.MaxBatchSize(100)) //can set options
                   //    .LogTo(Console.WriteLine); //the lot
                   //passing this in as a delegate so no (), can filter to db commands only
                   //LogLevel.Information also need to add Microsoft.Extensions.Logging;

@@ -11,6 +11,9 @@ namespace SamuraiApp.Domain
 
         public int BattleId { get; set; }
         public string Name { get; set; }
+        public DateTime StartDate {get; set;}
+        public DateTime EndDate { get; set; }
+
         public List<Samurai> Samurais { get; set; } = new List<Samurai>(); //fk many to many efrence to Samurai
     }
 }
