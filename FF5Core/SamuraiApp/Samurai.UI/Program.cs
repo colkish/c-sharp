@@ -12,6 +12,7 @@ namespace SamuraiApp.UI
     {
         //SamuraiContext class is a DBconbtect so it tracks this data in the context and then same the changes back to the DB
         private static SamuraiContext _context = new SamuraiContext();
+        private static SamuraiContext _contextNT = new SamuraiContextNoTracking();
 
         static void Main(string[] args)
         {
@@ -27,9 +28,77 @@ namespace SamuraiApp.UI
             //RetrieveAndUpdateSamurai();
             //RetreieveAndUpdateMultipleSamurais();
             //RetreieveAndDeleteASamurai();
-            QueryAndUpdateBattles();
+            //QueryAndUpdateBattles();
+            //InsertNewSamuraiWithAQuote();
+            //AddQuoteToExistingSamuraiWhileTracked();
+            //AddQuoteToExistingSamuraiNotTracked(2);
+            //this is an better way to do it using the FK
+            //Simpler_AddQuoteToExistingSamuraiNotTracked(2);
+            EagerLoadingSamuraiWithQuotes();
             Console.Write("Press any key...");
             Console.ReadKey();
+
+        }
+
+        private static void EagerLoadingSamuraiWithQuotes()
+        {
+            //this will do a single query with a left join i.e. samurais to quotes
+            //default
+            //var samuraiWithQuotes = _context.Samurais.Include(s => s.Quotes).ToList();
+            //can also split the query using this option if you think performance is better
+            var samuraiWithQuotes = _context.Samurais.AsSplitQuery().Include(s => s.Quotes).ToList();
+        }
+
+        private static void Simpler_AddQuoteToExistingSamuraiNotTracked(int samuraiId)
+        {
+            var quote = new Quote { Text = "Time to go", SamuraiId = samuraiId };
+            using var newContext = new SamuraiContext();
+            newContext.Quotes.Add(quote);
+            newContext.SaveChanges();
+        }
+
+        //Add, update and remove methods are all auto built into db context
+        //also there is an attach method
+
+        private static void AddQuoteToExistingSamuraiNotTracked(int samuraiId)
+        {
+            var samurai = _context.Samurais.Find(samuraiId);
+            samurai.Quotes.Add(new Quote
+            {
+                Text = "Time to go"
+            });
+            //use using so connection is auto disposed once done
+            using (var newContext = new SamuraiContext())
+            {
+                newContext.Samurais.Attach(samurai); //using attach then we still gett the quote added, with no
+                //newContext.Samurais.Update(samurai); //an update causes an update to samurai, which is not need use attach thats better
+                newContext.SaveChanges();
+            }
+        }
+
+        private static void AddQuoteToExistingSamuraiWhileTracked()
+        {
+            var samurai = _context.Samurais.FirstOrDefault();
+            samurai.Quotes.Add(new Quote
+            {
+                Text = "Watch out"
+            });
+            _context.SaveChanges();
+        }
+
+        private static void InsertNewSamuraiWithAQuote()
+        {
+            var samurai = new Samurai
+            {
+                 Name = "Colin"
+                ,Quotes = new List<Quote>
+                {
+                    new Quote{Text = "What is for tea"},
+                    new Quote{Text = "It's bed time"} //would be a merge if 4 or more quotes
+                }
+            };
+            _context.Samurais.Add(samurai); //maks in the context whats been added
+            _context.SaveChanges(); //then makes change to the DB
 
         }
 
@@ -83,11 +152,14 @@ namespace SamuraiApp.UI
         //private static void GetSamurais(string text) // only if I want to display a whats passed in 
         private static void GetSamurais()
         {
-            var samurais = _context.Samurais
+            var samurais = _contextNT.Samurais
+            //var samurais = _context.Samurais
                 //TagWith puts a SQL comment when the command is executed, helps identify it in profiler...
                 .TagWith("ConsoleApp.Program.GetSamurais method") //need to add using Microsoft.EntityFrameworkCore;
                 .ToList(); //linq 
 
+            //put a breakpoint here and the do a quick watch on _context.ChangeTracker.Entries() or _contextNT.ChangeTracker.Entries()
+            //for _context.Samurais I see the trakded results for _contextNT.Samurais there is non tracked results
             Console.WriteLine($"Samurai count is {samurais.Count}"); // only if I want to display a whats passed in 
             foreach (var samurai in samurais)
             {
