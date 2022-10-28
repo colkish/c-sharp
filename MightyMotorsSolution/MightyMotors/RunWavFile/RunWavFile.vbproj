@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RunWavFile</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>Sub Main</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sound.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>3</VersionMinor>
+      <VersionMajor>5</VersionMajor>
+      <Guid>0002e157-0000-0000-c000-000000000046</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sound.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -44,6 +44,8 @@ namespace MightyMotors
             Console.WriteLine("A:Search By Make");
             var inputKey = Console.ReadKey().Key;
 
+            
+            
             inputKey.ToString();
 
             if (inputKey.Equals("O")) //###THIS DOESN'T PICK UP A O
